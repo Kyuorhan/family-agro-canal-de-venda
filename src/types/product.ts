@@ -19,6 +19,7 @@ export interface Product {
   id: number;
   name: string;
   description: string;
+  stock: number;
   unit: string;
   price: number;
   farmer: Farmer;

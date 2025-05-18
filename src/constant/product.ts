@@ -6,6 +6,7 @@ export const productData: Product[] = [
     name: "Abobora",
     description: "Abobora cabotian",
     unit: "kg",
+    stock: 50,
     price: 2.5,
     farmer: {
       id: 1,
@@ -34,6 +35,7 @@ export const productData: Product[] = [
     name: "Batata",
     description: "Batata doce",
     unit: "kg",
+    stock: 75,
     price: 3.0,
     farmer: {
       id: 2,
@@ -62,6 +64,7 @@ export const productData: Product[] = [
     name: "Cenoura",
     description: "Cenoura orgânica",
     unit: "kg",
+    stock: 100,
     price: 4.0,
     farmer: {
       id: 3,
@@ -90,6 +93,7 @@ export const productData: Product[] = [
     name: "Beterraba",
     description: "Beterraba fresca",
     unit: "kg",
+    stock: 80,
     price: 2.0,
     farmer: {
       id: 4,
@@ -118,6 +122,7 @@ export const productData: Product[] = [
     name: "Brócolis",
     description: "Brócolis orgânico",
     unit: "kg",
+    stock: 120,
     price: 5.0,
     farmer: {
       id: 5,
@@ -146,6 +151,7 @@ export const productData: Product[] = [
     name: "Espinafre",
     description: "Espinafre fresco",
     unit: "kg",
+    stock: 90,
     price: 3.5,
     farmer: {
       id: 6,
@@ -174,6 +180,7 @@ export const productData: Product[] = [
     name: "Abobrinha",
     description: "Abobrinha italiana",
     unit: "kg",
+    stock: 110,
     price: 3.0,
     farmer: {
       id: 7,
@@ -202,6 +209,7 @@ export const productData: Product[] = [
     name: "Pepino",
     description: "Pepino japonês",
     unit: "kg",
+    stock: 130,
     price: 2.5,
     farmer: {
       id: 8,
@@ -230,6 +238,7 @@ export const productData: Product[] = [
     name: "Rúcula",
     description: "Rúcula orgânica",
     unit: "kg",
+    stock: 140,
     price: 4.5,
     farmer: {
       id: 9,
@@ -258,6 +267,7 @@ export const productData: Product[] = [
     name: "Couve",
     description: "Couve manteiga",
     unit: "kg",
+    stock: 100,
     price: 2.0,
     farmer: {
       id: 10,
@@ -279,6 +289,64 @@ export const productData: Product[] = [
       endDate: "2023-12-20",
       quantity: 100,
       amount: 200.0,
+    },
+  },
+  {
+    id: 11,
+    name: "Alface",
+    description: "Alface crespa",
+    unit: "kg",
+    stock: 150,
+    price: 3.0,
+    farmer: {
+      id: 11,
+      name: "Tiago",
+      phone: "6588888888",
+      address: {
+        cep: "88990011",
+        street: "Rua K",
+        number: 555,
+        complement: "Casa 11",
+        neighborhood: "Zona Oeste",
+        city: "Brasília",
+        state: "DF",
+      },
+    },
+    promotion: {
+      id: 11,
+      startDate: "2023-12-15",
+      endDate: "2024-01-15",
+      quantity: 150,
+      amount: 450.0,
+    },
+  },
+  {
+    id: 12,
+    name: "Cebolinha",
+    description: "Cebolinha fresca",
+    unit: "kg",
+    stock: 80,
+    price: 2.0,
+    farmer: {
+      id: 12,
+      name: "Juliana",
+      phone: "6577777777",
+      address: {
+        cep: "11223344",
+        street: "Rua L",
+        number: 666,
+        complement: "Apto 12",
+        neighborhood: "Centro",
+        city: "Natal",
+        state: "RN",
+      },
+    },
+    promotion: {
+      id: 12,
+      startDate: "2023-10-25",
+      endDate: "2023-11-25",
+      quantity: 80,
+      amount: 160.0,
     },
   },
 ];
